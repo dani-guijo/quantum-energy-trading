@@ -6,3 +6,17 @@ Peer-to-peer energy trading under the TE framework poses a considerable computat
 
 ## Data
 Similarly to [this](https://www.researchgate.net/publication/369550169_Quantum_Software_Architecture_Blueprints_for_the_Cloud_Overview_and_Application_to_Peer-2-Peer_Energy_Trading) previous study, we will generate a sythetic dataset to simplify the handling of data protection requirements. The code for the creation of this dataset is included within the project.
+
+## Usage
+To create the Docker image and run this repository in a container, open a terminal and run:
+```
+docker build . -t quantum-energy-trading
+```
+To run the image:
+```
+docker run quantum-energy-trading
+```
+You should see the following:
+```
+Test successful!
+```
