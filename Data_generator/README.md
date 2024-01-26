@@ -6,9 +6,9 @@ However, this can be tuned in the function in a self explanatory way.
 
 Example data with the continous pdf (red):
 <p align="center">
-<img src="Figure_1.png" alt="Transactions over time" title="Transactions over time" width="400"/>
+<img src="Figure_1.png" alt="Transactions over time" title="Transactions over time" width="500"/>
 
 The data comes in a dataframe and it looks as follows:
 <p align="center">
-<img src="Figure_2.png" alt="df" title="df" width="700"/>
+<img src="Figure_2.png" alt="df" title="df" width="500"/>
 
