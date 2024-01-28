@@ -1,4 +1,10 @@
-from data_generator.data_gen import 
+from data.data_gen import data_generator
+
+
 
 if __name__ == "__main__":
-    test_1()
+    df = data_generator()
+
+    df_length_per_hour = df.groupby('Hour').size()
+    df_length_per_hour[df_length_per_hour<10] = 0
+    df_length_per_hour.describe(include='all')
