@@ -16,6 +16,26 @@ def data_generator(loc=11.5,
                    quant_min=1,
                    quant_max=5
                    ):
+
+    '''
+    Generates a Pandas DataFrame with the specified parameters.
+    
+    Arguments:
+
+    loc: Mean of the Gaussian distribution from which the data is generated.
+    scale: Standard deviation of the Gaussian distribution from which the data is generated.
+    size: Number of samples
+    hours: Number of hours during which trading is possible.
+    min_value: Minimum number of hourly transactions.
+    max_value: Maximum number of hourly transactions.
+    price_min: Minimum energy price in cents/KWh.
+    price_max: Maximum energy price in cents/KWh.
+    quant_min: Minimum value of the energy bid range.
+    quant_max: Maximum value of the energy bid range.
+
+    return: Pandas DataFrame
+
+    '''
     
     samples = np.random.normal(loc=loc, scale=scale, size=size)
     hours = np.arange(hours)
