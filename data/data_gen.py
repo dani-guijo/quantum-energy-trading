@@ -9,7 +9,7 @@ class TEMarket():
     Class to create a Transactive Energy Market scenario.
     """
 
-    def __init__(self
+    def __init__(self,
                  hours=24,
                  min_players=10,
                  max_players=123,
