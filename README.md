@@ -18,5 +18,16 @@ docker run quantum-energy-trading
 ```
 You should see the following:
 ```
-Test successful!
+Transactive Energy Market Summary
+
+--------------------------------------
+
+Number of samples: 24
+
+Hourly Transactions Range: [10, 123]
+
+Price Range (cents/KWh): [8, 32]
+
+Bid Range (KWh): [1, 5]
+Ask Range (KWh): [5, 10]
 ```
