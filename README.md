@@ -22,7 +22,7 @@ Transactive Energy Market Summary
 
 --------------------------------------
 
-Number of samples: 24
+Number of samples: 15000
 
 Hourly Transactions Range: [10, 123]
 
