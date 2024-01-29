@@ -138,7 +138,7 @@ class TEMarket():
         return df
 
 
-    def summary(self, df: DataFrame):
+    def summary(self, df: pd.DataFrame):
         """
         Writes a summary of the dataset.
         """
